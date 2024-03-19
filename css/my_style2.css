@@ -3,8 +3,12 @@
     line-height: 1.5em;
 }
 
-boby{
-    font-family: 'Noto Sans TC', sans-serif;
+*{ 
+    font-family:'Noto Sans TC', sans-serif;
+} 
+ h1,h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { 
+    font-family:'Noto Serif TC', sans-serif; 
+
 }
 p.redred{
     color:#800000;
@@ -17,3 +21,11 @@ p.redred{
    color:#008B8B;
 }
 
+.expedu_icon{
+    color:rgba(78, 21, 21, 0.473)
+}
+
+.expedu_icon:hover{
+    background-color:rgb(165, 95, 9);
+    color:#800000;
+}
