@@ -11,11 +11,21 @@
 
 }
 p.redred{
-    color:#800000;
+    color:#a6b616;
     font-size: 40px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(126, 88, 38);
+    border-color: #7e1fbd;
+    border: 10px dashed rgb(158, 38, 206);
+    background-image: url(../assets/img/背景-1.jpg);
 }
+    .bg-primary {
+        background-color: black !important;
+        background-image: url(../assets/img/背景-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+
 
 .blueblue{
    color:#008B8B;
@@ -29,3 +39,4 @@ p.redred{
     background-color:rgb(165, 95, 9);
     color:#800000;
 }
+
