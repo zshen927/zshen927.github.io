@@ -11,12 +11,17 @@
 
 }
 p.redred{
-    color:#a6b616;
+    padding:10px;
+    border: 10px ;
+    border-radius: 5px;
+    margin:100px;
+
+    color:#e21794;
     font-size: 40px;
     text-align: center;
-    background-color: rgb(126, 88, 38);
-    border-color: #7e1fbd;
-    border: 10px dashed rgb(158, 38, 206);
+    background-color: rgb(231, 26, 221);
+    border-color: #a804a8;
+    border: 10px dashed rgb(236, 233, 238);
     background-image: url(../assets/img/背景-1.jpg);
 }
     .bg-primary {
@@ -40,3 +45,38 @@ p.redred{
     color:#800000;
 }
 
+table.cynthiatable th{
+    text-align: center;
+    background-color: rgb(18, 86, 146);
+    color:antiquewhite;
+    border:10px solid rgb(19, 119, 97);
+}
+
+table.cynthiatable{
+    width:80%;
+    background-color:aliceblue;
+    border-collapse: separate;
+}
+
+table.cynthiatable th{
+    text-align:center;
+}
+
+table.cynthiatable td{
+    text-align: center;
+    border:10px solid rgb(202, 194, 194);
+
+}
+
+table.cynthiatable tr:nth-child(even){
+    background-color: bisque;
+    color:plum;
+}
+
+table.cynthiatable tr:nth-child(odd) {
+    background-color:aquamarine;
+}
+
+.w-25{
+    width:25%;
+}
