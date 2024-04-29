@@ -89,3 +89,10 @@ overflowtest{
     margin:30px auto;
     overflow: scroll;
 }
+
+.background123{
+    background-image: url(../assets/img/帥背景-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100% !important;
+}
