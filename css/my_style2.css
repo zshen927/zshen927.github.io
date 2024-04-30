@@ -89,3 +89,30 @@ table.cynthiatable tr:nth-child(odd) {
     background-position: center;
     max-width: 100% !important;
 }
+
+ol.list01{
+    list-style-type: upper-roman;
+}
+
+ol.list01>li:hover{
+    background-color:#ffffff;
+    color: #7D9F80
+}
+
+ul.list02{
+    list-style-type: square;
+}
+
+ul.list-group>li:hover{
+    background-color:#ffffff;
+    color: #7D9F80
+}
+
+#border{
+    border: 2px solid #000;
+    padding: 10px;
+    display: inline-block;
+    width: 800px;
+    background-color: #12121215;
+    border-radius: 10px;
+}
